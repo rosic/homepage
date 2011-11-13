@@ -1,0 +1,12 @@
+<div id="menu">
+  <h1><%= link_to 'Marek Rosa', '/' %></h1>
+  <div class="controls">
+    <ul>
+      <li>
+      <%= link_to 'About', '/about/' %>
+      <%= link_to 'Sketchstream', @items.find {|i| i.identifier == '/sketchstream/'} %>
+      <%= link_to 'Photostream', @items.find {|i| i.identifier == '/photostream/'} %>
+      </li>
+    </ul>
+  </div>
+</div>
