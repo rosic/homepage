@@ -80,7 +80,7 @@ F.prototype = {
 		return this;
 	},
 	_call: function(params, callback) {
-		var url = 'http://api.flickr.com/services/rest/?';
+		var url = 'https://api.flickr.com/services/rest/?';
 		var scope = this;
 		params = jQuery.extend({
 			format : 'json',
