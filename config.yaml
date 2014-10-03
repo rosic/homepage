@@ -42,3 +42,7 @@ data_sources:
     config:
         allow_periods_in_identifiers: true
 
+deploy:
+  public:
+    kind: rsync
+    dst:  "marek@playground:/var/app/marek"

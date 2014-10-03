@@ -14,6 +14,7 @@ GEM
       cri (~> 2.3)
     rack (1.5.2)
     ref (1.0.5)
+    systemu (2.6.4)
     therubyracer (0.12.1)
       libv8 (~> 3.16.14.0)
       ref
@@ -25,4 +26,5 @@ DEPENDENCIES
   adsf
   less
   nanoc
+  systemu
   therubyracer
