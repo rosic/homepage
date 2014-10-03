@@ -4,15 +4,25 @@ GEM
     adsf (1.2.0)
       rack (>= 1.0.0)
     colored (1.2)
+    commonjs (0.2.7)
     cri (2.4.1)
       colored (>= 1.2)
+    less (2.6.0)
+      commonjs (~> 0.2.7)
+    libv8 (3.16.14.3)
     nanoc (3.6.7)
       cri (~> 2.3)
     rack (1.5.2)
+    ref (1.0.5)
+    therubyracer (0.12.1)
+      libv8 (~> 3.16.14.0)
+      ref
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   adsf
+  less
   nanoc
+  therubyracer
